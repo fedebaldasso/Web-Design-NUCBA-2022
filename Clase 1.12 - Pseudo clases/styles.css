@@ -1,0 +1,43 @@
+h2:first-child {
+    background-color: blueviolet;
+    color: white;
+}
+
+h3:last-child {
+    background-color: coral;
+    color: white;
+}
+
+/*selecciona los impares*/
+h4:nth-child(odd) {
+    background-color: aqua;
+}
+
+/*selecciona los pares*/
+h4:nth-child(even) {
+    background-color: green;
+}
+
+/*selecciona el quinto elemento*/
+h5:nth-child(5) {
+    background-color: pink;
+}
+
+/*selecciona cada 3 elementos*/
+h5:nth-child(3n) {
+    background-color: yellow;
+}
+
+/*el input se comporta con las características del focus cuando hacemos click en el input*/
+input:focus{
+    background-color: blue;
+    color: white;
+}
+
+.contenedor-a {
+        margin-top: 30px;
+}
+
+a:hover {
+    background-color: chartreuse;
+}

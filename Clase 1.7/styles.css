@@ -1,0 +1,51 @@
+.cuadrado {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+
+.c-1 {
+    background: blue;
+    position: static;
+    top: 200px;
+    left: 200px;
+    }
+
+.c-2 {
+    background: green;
+    position: relative; /*se posiciona en el lugar que le indico relativo a su posicion original*/
+    top: 200px;
+    left: 200px;
+}
+
+.c-3 {
+    background: yellow;
+    position: absolute; /*se posiciona en el lugar de la pantalla que le indico*/
+    top: 0px;
+    left: 0px;
+
+}
+
+.c-4 {
+    background: pink;
+    position: fixed; /*se posiciona siguiendo el scroll de la pantalla*/
+    top: 20px;
+    left: 20px;
+
+}
+
+.c-5 {
+    background: violet;
+    width: 100%;
+    height: 50%;
+    overflow: auto;
+}
+
+.c-6 {
+    background: red;
+    position: sticky; /*es como el fixed pero dentro del scroll de un elemento*/
+    height: 100px;
+    top: 20px;
+    left: 200px;
+}

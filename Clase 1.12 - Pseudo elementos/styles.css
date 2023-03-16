@@ -1,0 +1,39 @@
+.texto::first-line {
+    background-color: blue;
+}
+
+.texto::first-letter {
+    font-size: 3em;
+    color: red;
+}
+
+h2::before {
+    content: 'owo ';
+    color:blue;
+    font-size: 3em;
+}
+
+h2::after {
+    content: ' uwu';
+    color:red;
+    font-size: 3em;
+}
+
+span {
+    text-decoration: underline;
+    position: relative;
+    cursor: pointer; /*aparece la mano al pasar por el span*/
+}
+
+span:hover::after {
+    content: 'ESTE ES MI TOOLTIP PIOLA';
+    position: absolute;
+    left: 0;
+    top: 24px;
+    border: 1px #aaaaaa solid;
+    background-color: #ffffcc;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 10px;
+    color: #000;
+}
